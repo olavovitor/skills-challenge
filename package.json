@@ -1,0 +1,21 @@
+{
+  "name": "ui-automation-code-challenge",
+  "version": "1.0.0",
+  "description": "Step for the interview process for the QA Automation Engineer position at MB.io company using Playwright with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --headed",
+    "test:edge": "npx playwright test --project MicrosoftEdge",
+    "test:chrome": "npx playwright test --project GoogleChrome",
+    "test:chromium": "npx playwright test --project chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.5"
+  }
+}
